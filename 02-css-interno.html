@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecendo o CSS Interno</title>
+
+    <style>
+        /* h1 - seletor tag */
+        h1 {
+            /* Comentário CSS */
+            /* color - cor */
+            color: purple; 
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        p {
+            color: darkviolet;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            color: darkgreen;
+        }
+
+        footer p {
+            text-align: left;
+            color: red;
+        }
+
+        /* Exemplo de cascata - A última regra é a que prevalece para o elemento selecionado */
+        h1 {
+            color: brown;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Comentário HTML -->
+    <header>
+        <h1>Logo</h1>
+    </header>
+
+    <main>
+        <h2>Conteudo</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat modi officia numquam? Blanditiis laborum provident quo nobis dicta, pariatur quis vel consectetur sapiente illo officia. In consequatur tempore repellendus quia.</p>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+
+</html>
