@@ -1,0 +1,30 @@
+h1 {
+    /* O RGB é um model de seres baseado na combinação dos seguintes cores: 
+
+    R : Red (vermelho)
+    G : Green (verde)   
+    B : Blue (azul)
+
+    Usamos esse modelo, pos ele é usado para representar cores em telas.
+    Exemplo: Monitores, Televisores, Celulares e navegadores web.
+    
+    */
+
+    color: rgb(117, 16, 212); 
+    text-align: center;
+}
+
+p {
+    color: rgb(3, 3, 87);
+    text-align: justify;
+}
+
+body {
+    background-color:rgba(145, 194, 235, 0.473);
+}
+
+/* usamos #(hashtag) para identificar o id - identifier(identificador)*/
+#paragrafo-footer {
+    text-align: center;
+    color: blue;
+}
