@@ -1,3 +1,4 @@
+/* seletor tag, onde selecionamos o elemento prlo seu nome dentro do html */
 h1 {
     /* O RGB é um model de seres baseado na combinação dos seguintes cores: 
 
@@ -14,8 +15,13 @@ h1 {
     text-align: center;
 }
 
+/* Usamos o ponto (.) para identificar uma classe(class) */
+.paragrafo-section {
+    color: yellow;
+}
+
 p {
-    color: rgb(3, 3, 87);
+    color: rgb(166, 166, 231);
     text-align: justify;
 }
 
@@ -26,5 +32,52 @@ body {
 /* usamos #(hashtag) para identificar o id - identifier(identificador)*/
 #paragrafo-footer {
     text-align: center;
-    color: blue;
+    color: rgb(27, 185, 48);
+}
+
+section {
+    background-color: rgb(46, 133, 184);
+}
+
+/* Seletor Descendente - Onde selecionamos todos os elementos que são descendentes do primeiro, ou seja, elementos filhos. */
+section h2 {
+    color: beige;
+    background-color: blueviolet;
+}
+
+body {
+    background-color: darkblue;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: yellow;
+}
+
+header h1 {
+    /* Para deixar o texto minusculo */
+    text-transform: lowercase;
+
+    /* Para deixar o texto maiusculo */
+    text-transform: uppercase;
+
+    /* Para deixar o texto com a primeira letra maiuscula */
+    text-transform: capitalize;
+}
+
+main {
+    background-color:violet;
+}
+
+main section {
+    text-align: center;
+}
+
+main section p {
+    text-align: justify;
+}
+
+section h2 {
+    width: 150px;
+    height: 200px;
 }
