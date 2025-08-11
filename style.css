@@ -74,10 +74,25 @@ main section {
 }
 
 main section p {
-    text-align: justify;
+    text-align: center;
 }
 
 section h2 {
-    width: 150px;
-    height: 200px;
+    width: 400px;
+    /*height: 100px;*/
+    /*padding-top: 20px;*/
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    /*padding-bottom: 20px;*/
+
+    /* shorthand - atalho */
+
+    /* aplica em todas as diferenças (top, left, right, bottom) */
+    /*padding: 20px;*/
+
+    /* top/botton | left/right */
+    padding: 20px 10px;
+
+    /* espessura/ tipo de borda/ cor da borda */
+    border: 3px solid black;
 }
